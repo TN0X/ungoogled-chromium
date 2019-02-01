@@ -3,7 +3,6 @@ inox-patchset/chromium-skia-harmony.patch
 inox-patchset/chromium-widevine.patch
 inox-patchset/clang-compiler-flags.patch
 inox-patchset/fix-cfi-failures-with-unbundled-libxml.patch
-inox-patchset/0001-fix-building-without-safebrowsing.patch
 inox-patchset/0003-disable-autofill-download-manager.patch
 inox-patchset/0004-disable-google-url-tracker.patch
 inox-patchset/0005-disable-default-extensions.patch
@@ -67,8 +66,6 @@ iridium-browser/prefs-only-keep-cookies-until-exit.patch
 iridium-browser/prefs-always-prompt-for-download-directory-by-defaul.patch
 iridium-browser/updater-disable-auto-update.patch
 iridium-browser/Remove-EV-certificates.patch
-iridium-browser/safe_browsing-disable-incident-reporting.patch
-iridium-browser/safe_browsing-disable-reporting-of-safebrowsing-over.patch
 iridium-browser/all-add-trk-prefixes-to-possibly-evil-connections.patch
 iridium-browser/promo-disable-Google-promotion-fetching.patch
 iridium-browser/browser-disable-profile-auto-import-on-first-run.patch
@@ -108,7 +105,6 @@ ungoogled-chromium/add-flag-to-disable-beforeunload.patch
 ungoogled-chromium/add-flag-to-enable-potentially-annoying-security-features.patch
 ungoogled-chromium/disable-mei-preload.patch
 ungoogled-chromium/add-flag-to-force-punycode-hostnames.patch
-ungoogled-chromium/fix-building-without-safebrowsing.patch
 ungoogled-chromium/searx.patch
 ungoogled-chromium/remove-third-party-analytics.patch
 ungoogled-chromium/disable-webgl-renderer-info.patch

@@ -182,6 +182,8 @@ def main():
     _run_build_process('third_party\\ninja\\ninja.exe', '-C', 'out\\Default', 'chrome',
                        'chromedriver')
 
-
+    # Visual studio 
+    #_run_build_process('out\\Default\\gn.exe', 'gen', '--ide=vs', '--filters=//chrome/*', '--sln=chrome', 'out\\Default', '--fail-on-unused-args')
+	
 if __name__ == '__main__':
     main()

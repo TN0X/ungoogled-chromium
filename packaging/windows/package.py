@@ -44,3 +44,6 @@ def main():
     files_generator = buildkit.filescfg.filescfg_generator(
         Path('chrome/tools/build/win/FILES.cfg'), build_outputs, args.cpu_arch)
     buildkit.filescfg.create_archive(files_generator, tuple(), build_outputs, output)
+
+if __name__ == '__main__':
+    main()

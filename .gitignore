@@ -8,3 +8,5 @@ __pycache__/
 
 # Ignore optional build / cache directory
 /build
+/.vs
+/downloads_cache
